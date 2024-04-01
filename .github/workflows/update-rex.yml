@@ -1,4 +1,4 @@
-name: Update Checker
+name: ReX Update Check
 on:
   workflow_dispatch:
   schedule:
@@ -22,10 +22,10 @@ jobs:
             echo "The file latest-parsed-version.md was not found at the base of the repository. This file is necessary for keeping track of the previously built version and compare it the remote version. To avoid generating failed runs, the workflow will now be interrupted."
             exit 0
           fi
-      - name: Get latest release from inotia00/revanced-patches
+      - name: Get latest release from YT-Advanced/ReX-patches
         id: latest-release
         run: |
-          LATEST_RELEASE=$(curl -s https://api.github.com/repos/inotia00/revanced-patches/releases/latest | jq -r '.tag_name')
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/YT-Advanced/ReX-patches/releases/latest | jq -r '.tag_name')
           if [ "$LATEST_RELEASE" == "null" ]; then
             echo "Couldn't fetch latest release. Workflow halted!"
             exit 0
