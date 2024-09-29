@@ -1,1 +1,32 @@
-{}
+{
+    "ReVanced/GmsCore": {
+        "ResourceName": "[ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases/tag/v0.3.1.4.240913)",
+        "Version": "v0.3.1.4.240913",
+        "Changelog": "# Download\r\n\r\n| Default | Huawei |\r\n| -------- | -------- |\r\n| [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-signed.apk) |  [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-hw-signed.apk) |\r\n",
+        "PublishedOn": "2024-04-05T02:37:11Z"
+    },
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.0)",
+        "Version": "V1.4.0",
+        "Changelog": "## What's Changed\r\n* Fix Mismatch in zip data descriptors #124 \r\n* Fix duplicate xml namespace #128 \r\n* New and aapt features for `info` :https://github.com/REAndroid/APKEditor/commit/4ae319652496ac89c51f7bad8a810c81452d2530\r\n   _For details run:_ `java -jar APKEditor.jar info -h`\r\n* Implement Jcommand by @REAndroid in https://github.com/REAndroid/APKEditor/pull/127\r\n* Translate to french (init fr locale) by @Kirlif in https://github.com/REAndroid/APKEditor/pull/129\r\n* Update gradle_build.yml by @Veha0001 in https://github.com/REAndroid/APKEditor/pull/130\r\n\r\n## New Contributors\r\n* @Veha0001 made their first contribution in https://github.com/REAndroid/APKEditor/pull/130\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.3.9...V1.4.0",
+        "PublishedOn": "2024-09-27T17:54:00Z"
+    },
+    "revanced/revanced-patches": {
+        "ResourceName": "[revanced/revanced-patches](https://github.com/ReVanced/revanced-patches/releases/tag/v4.15.0)",
+        "Version": "v4.15.0",
+        "Changelog": "# [4.15.0](https://github.com/ReVanced/revanced-patches/compare/v4.14.1...v4.15.0) (2024-09-23)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **TikTok - Playback speed:** Prevent crash by fixing invalid patch ([82d53cb](https://github.com/ReVanced/revanced-patches/commit/82d53cbc3bbfa585ba4337fdfaec9f0f19c802e6))\r\n* **TikTok - Settings:** Prevent crash by fixing invalid patch ([8074032](https://github.com/ReVanced/revanced-patches/commit/8074032fad3eff1c03296a882d2e2820da99b592))\r\n* **Twitter - Open links with app chooser:** Constrain patch to last working version `10.48.0-release` ([b9955d5](https://github.com/ReVanced/revanced-patches/commit/b9955d5ff6e456593b01f0f25d80ff660d02082a))\r\n* **YouTube - Spoof video streams:** Change default client type to Android VR ([#3672](https://github.com/ReVanced/revanced-patches/issues/3672)) ([a3306f6](https://github.com/ReVanced/revanced-patches/commit/a3306f6717a09b734354f00363a96abad0ae14e7))\r\n\r\n\r\n### Features\r\n\r\n* **TikTok:** Bump patches to support the latest version 36.5.4 ([e5dcb72](https://github.com/ReVanced/revanced-patches/commit/e5dcb72597092fb32003f11fdf6f861ede4e7ff3))\r\n\r\n\r\n\r\n",
+        "PublishedOn": "2024-09-23T14:11:48Z"
+    },
+    "revanced/revanced-integrations": {
+        "ResourceName": "[revanced/revanced-integrations](https://github.com/ReVanced/revanced-integrations/releases/tag/v1.14.2)",
+        "Version": "v1.14.2",
+        "Changelog": "## [1.14.2](https://github.com/ReVanced/revanced-integrations/compare/v1.14.1...v1.14.2) (2024-09-23)\n\n\n### Bug Fixes\n\n* **YouTube - Hide layout components:** Hide new kind of community posts ([#695](https://github.com/ReVanced/revanced-integrations/issues/695)) ([b384926](https://github.com/ReVanced/revanced-integrations/commit/b3849267a7e1a90bfdb129f0e3abd9f6ecf7234e))\n* **YouTube - Spoof video streams:** Change default client type to Android VR ([a2e8bbb](https://github.com/ReVanced/revanced-integrations/commit/a2e8bbb422eb55b955b954b095fcdb9813cb3a8c))\n* **YouTube - Spoof video streams:** Change default client type to Android VR ([#697](https://github.com/ReVanced/revanced-integrations/issues/697)) ([d06706d](https://github.com/ReVanced/revanced-integrations/commit/d06706d717310d4b0926a10253611f674f95e3f6))\n\n\n\n",
+        "PublishedOn": "2024-09-23T14:12:40Z"
+    },
+    "revanced/revanced-cli": {
+        "ResourceName": "[revanced/revanced-cli](https://github.com/ReVanced/revanced-cli/releases/tag/v4.6.0)",
+        "Version": "v4.6.0",
+        "Changelog": "# [4.6.0](https://github.com/ReVanced/revanced-cli/compare/v4.5.0...v4.6.0) (2024-04-01)\n\n\n### Bug Fixes\n\n* Copy APK to output path when it is not being signed ([366f400](https://github.com/ReVanced/revanced-cli/commit/366f400c5a46491f3f262c7ff4b0df1ae3721f74))\n* Use correct option description ([45a2ffa](https://github.com/ReVanced/revanced-cli/commit/45a2ffa2dd95ee8ac3c4d466463c9a5b869b8da1))\n\n\n### Features\n\n* Use more consistent option name ([223629c](https://github.com/ReVanced/revanced-cli/commit/223629c663dcd94d237110e09e4e152aa03867f9))\n\n\n\n",
+        "PublishedOn": "2024-04-01T14:57:09Z"
+    }
+}

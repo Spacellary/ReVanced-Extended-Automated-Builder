@@ -1,1 +1,50 @@
-{}
+{
+    "pixiv": {
+        "app_version": "6-125-0-48826",
+        "integrations_version": "v1.14.2",
+        "patches_version": "v4.15.0",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v4.15.0",
+        "ms_epoch_since_patched": 1727633722095,
+        "date_patched": "2024-09-29 18:15:22.095112+05:30",
+        "app_dump": {
+            "app_name": "pixiv",
+            "app_version": "6-125-0-48826",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli",
+            "patches_dl": "https://github.com/revanced/revanced-patches",
+            "integrations_dl": "https://github.com/revanced/revanced-integrations",
+            "patches_json_dl": "https://github.com/revanced/revanced-patches",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "897747a966c3430ff587ac473a5f76a3dce5a99786701764144bde79060ebe5f.apk",
+                    "version": "v1.14.2"
+                },
+                "patches": {
+                    "file_name": "7cc0eef105cb3264d65bb73738f2ab1869b1ef6008e6d9f883c2293d5f15bd33.jar",
+                    "version": "v4.15.0"
+                },
+                "patches_json": {
+                    "file_name": "c68c27a61c7ede613564dac934d7d72102c4d7864871d5050f06cb0d19381b2b.json",
+                    "version": "v4.15.0"
+                }
+            },
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "pixiv.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=7179717&key=3cc77f9ee0bcf35617c89d53b75a421c7d3dc640",
+            "download_source": "https://www.apkmirror.com/apk/pixiv-inc/pixiv/",
+            "package_name": "jp.pxv.android",
+            "old_key": true,
+            "space_formatted": true
+        }
+    }
+}
